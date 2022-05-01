@@ -70,4 +70,6 @@ function navigate()
 	{
 		window.alert('Please enter valid credentials');
 	}
+	uname="";
+	pd="";
 }
