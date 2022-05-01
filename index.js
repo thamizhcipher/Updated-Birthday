@@ -57,3 +57,17 @@ function validate()
 		return false;
 	}
 }
+
+function navigate()
+{
+	var uname=document.getElementById('username').value
+	var pd=document.getElementById('password').value
+	if(uname=='1234' && pd=='1234')
+	{
+		window.location.href="./index1.html";
+	}
+	else
+	{
+		window.alert('Please enter valid credentials');
+	}
+}
